@@ -10,6 +10,8 @@
  Layout
 ---------------------------------------------------------------------------- */
 body {
+  font-family: Arial !important;
+  color: #666666 !important; ;
   margin: 0;
   padding-top: 50px;
 }
@@ -194,35 +196,60 @@ ul.scroll-menu {
 /* -------------------------------------------------------------------------
  Colors
 ---------------------------------------------------------------------------- */
-.sg-brand-primary .sg-color-swatch {
-  background: #bbbbbb;
+.sg-blue-primary .sg-color-swatch {
+  background: #00427F;
 }
-.sg-gray-lighter .sg-color-swatch {
-  background: #dddddd;
+.sg-green-bright .sg-color-swatch {
+  background: #00CC00;
 }
-.sg-gray-light .sg-color-swatch {
-  background: #808080;
+.sg-blue-light .sg-color-swatch {
+  background: #2980B9;
 }
-.sg-gray .sg-color-swatch {
-  background: #555555;
+.sg-green-dark .sg-color-swatch {
+  background: #03634D;
 }
-.sg-gray-dark .sg-color-swatch {
+.sg-orange .sg-color-swatch {
+  background: #D65811;
+}
+.sg-black .sg-color-swatch {
+  background: #2F3E44;
+}
+.sg-mid-grey .sg-color-swatch {
+  background: #ECF0F1;
+}
+.sg-light-grey .sg-color-swatch {
+  background: #F4F5F6;
+}
+
+.sg-knowledge-red .sg-color-swatch {
+  background: #BF3A27;
+}
+.sg-knowledge-turq .sg-color-swatch {
+  background: #3A817E;
+}
+.sg-knowledge-grey .sg-color-swatch {
+  background: #4A5658;
+}
+.sg-knowledge-purp .sg-color-swatch {
+  background: #610E6C;
+}
+.sg-knowledge-orange .sg-color-swatch {
+  background: #C75210;
+}
+.sg-knowledge-blue .sg-color-swatch {
+  background: #09759D;
+}
+.sg-type-headings .sg-color-swatch {
   background: #333333;
 }
-.sg-gray-darker .sg-color-swatch {
-  background: #222222;
+.sg-type-body .sg-color-swatch {
+  background: #666666;
 }
-.sg-brand-success .sg-color-swatch {
-  background: #469408;
+.sg-type-heading-links .sg-color-swatch {
+  background: #00427F;
 }
-.sg-brand-info .sg-color-swatch {
-  background: #029acf;
-}
-.sg-brand-warning .sg-color-swatch {
-  background: #9b479f;
-}
-.sg-brand-danger .sg-color-swatch {
-  background: #d9831f;
+.sg-type-panel-headings .sg-color-swatch {
+  background: #FFFFFF;
 }
 /* Fonts
 ---------------------------------------------------------------------------- */
@@ -376,6 +403,14 @@ ol.linenums li {
   color: #bebec5;
   line-height: 1.5;
   padding-left: .8em;
+}
+/* -------------------------------------------------------------------------
+ Links
+---------------------------------------------------------------------------- */
+
+a {
+  color: #00427F !important;
+  text-decoration: underline !important;
 }
 /* -------------------------------------------------------------------------
  Legacy IE
