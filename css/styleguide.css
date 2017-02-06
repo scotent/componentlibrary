@@ -1,11 +1,4 @@
-/* -------------------------------------------------------------------------
 
- Style Guide Boilerplate Bootstrap Edition v2.0.1
- Repo: https://github.com/kemie/Style-Guide-Boilerplate-Bootstrap-Edition
- Author: Brett Jankord (modified by Kemie Guaida)
- License: MIT
-
----------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------
  Layout
 ---------------------------------------------------------------------------- */
@@ -258,7 +251,7 @@ ul.scroll-menu {
   padding: 0 0 .2em 0;
 }
 .sg-font-primary {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:  Arial, sans-serif;
 }
 .sg-font-secondary {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -273,6 +266,44 @@ ul.scroll-menu {
   border: 1px solid #808080;
   padding: 0.5em;
 }
+
+/* Pagination
+---------------------------------------------------------------------------- */
+
+.pagination {
+  border-radius: 0px !important;
+}
+.pagination > li > a, .pagination > li > span {
+    text-decoration: underline !important;
+    color: #333333 !important;
+
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+  border-bottom-left-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+}
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+  border-bottom-right-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+.pagination-sm > li:first-child > a, .pagination-sm > li:first-child > span {
+  border-bottom-left-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+}
+.pagination-sm > li:last-child > a, .pagination-sm > li:last-child > span {
+  border-bottom-right-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+.pagination-lg > li:first-child > a, .pagination-lg > li:first-child > span {
+  border-bottom-left-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+}
+.pagination-lg > li:last-child > a, .pagination-lg > li:last-child > span {
+  border-bottom-right-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+
+
 /* Markup
 ---------------------------------------------------------------------------- */
 .sg-markup-controls {
