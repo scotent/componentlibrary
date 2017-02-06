@@ -59,8 +59,21 @@ body {
   margin-top: 2em;
 }
 .row > .page-header {
-  padding-top: 2em;
+    padding-top: 2em;
 }
+h1, .h1 {
+    font-size: 26px !important;
+}
+h2, .h2 {
+    font-size: 22px !important;
+}
+h3, .h3 {
+    font-size: 18px !important;
+}
+h4, .h4 {
+    font-size: 16px !important;
+}
+
 /* Buttons
 ---------------------------------------------------------------------------- */
 .sg-btn {
